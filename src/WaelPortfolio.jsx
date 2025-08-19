@@ -22,7 +22,7 @@ const CV = {
   linkedin: "https://www.linkedin.com/in/wael-shaheen18",
   whatsapp_link: "https://wa.me/201060060771",
   cv_file: "/CV.pdf",
-  profile: "/Yellow and Black Simple Professional LinkedIn Profile Picture-artguru.png",
+  profile: "/profile.png",
   objective_en:
     "Detail-oriented and highly skilled General Accountant with 3 years of experience in managing financial records, preparing reports, reconciling accounts, and ensuring compliance with accounting standards. Proven track record in improving financial processes, reducing discrepancies, and providing actionable insights for decision-making. Strong proficiency in accounting software and advanced Excel functions. Seeking to leverage expertise to contribute to the financial health of a dynamic organization.",
   objective_ar:
@@ -33,39 +33,51 @@ const CV = {
       ar: "جامعة الإسكندرية، كلية التجارة — بكالوريوس محاسبة (التقدير: جيد جدًا) — 2021",
     },
   ],
+extra_certs: [
+  {
+    en: "Professional Financial Accountant (P.F.A)",
+    ar: "محاسب مهني مالي (P.F.A)"
+  },
+  {
+    en: "Cost Accounting — EAAC Center",
+    ar: "محاسبة التكاليف — مركز EAAC"
+  }
+],
+
   certificates: [
-    { en: "Professional Financial Accountant (P.F.A)", ar: "محاسب مهني مالي (P.F.A)", img: "/certificates/Professional Financial Accountant (P.F.A).jpg" },
-    { en: "Cost Accounting — EAAC Center", ar: "محاسبة التكاليف — مركز EAAC", img: "/certificates/Cost Accounting.jpg" },
-    { en: "Financial Models Using Excel — almentor (09-03-2024)", ar: "النماذج المالية باستخدام إكسل — المنتر (09-03-2024)", img: "/certificates/Financial Models Using Excel.jpg" },
-    { en: "Experience Letter — Waleed Abdhafez Accounting Office", ar: "خطاب خبرة — مكتب وليد عبد الحافظ للمحاسبة", img: "/certificates/Waleed Abdhafez Accounting Office.jpg" },
-    { en: "Experience Certificate — Dr. Mohamed Feteha Accounting Office", ar: "شهادة خبرة — مكتب د/ محمد فتحه للمحاسبة", img: "/certificates/Dr. Mohamed Feteha Accounting Office.jpg" },
-    { en: "Technical Training Script — New Haven Academy (20-03-2023)", ar: "Technical Training Script — New Haven Academy (20-03-2023)", img: "/certificates/Technical Training Script.jpg" },
+    { en: "Professional Financial Accountant (P.F.A)", ar: "محاسب مهني مالي (P.F.A)", img: "/certificates/professional-financial-accountant.jpg" },
+    { en: "Cost Accounting — EAAC Center", ar: "محاسبة التكاليف — مركز EAAC", img: "/certificates/cost-accounting.jpg" },
+    { en: "Financial Models Using Excel — almentor ", ar: "النماذج المالية باستخدام إكسل — المنتور ", img: "/certificates/financial-models-using-excel.jpg" },
+    { en: "Experience Letter — Waleed Abdhafez Accounting Office", ar: "خطاب خبرة — مكتب وليد عبد الحافظ للمحاسبة", img: "/certificates/waleed-abdhafez.jpg" },
+    { en: "Experience Certificate — Dr. Mohamed Feteha Accounting Office", ar: "شهادة خبرة — مكتب د/ محمد فتحه للمحاسبة", img: "/certificates/dr-mohamed-feteha.jpg" },
+    { en: "Technical Training Script — Professional Financial Accountant ", ar: "Technical Training Script — Professional Financial Accountant ", img: "/certificates/technical-training-script.jpg" },
   ],
   experience: [
     {
       role_en: "General Accountant",
       role_ar: "محاسب عام",
-      company_en: "Nutopia for Food & Beverage LLC",
-      company_ar: "Nutopia for Food & Beverage LLC",
+      company_en: "Nutopia for Food & Beverage LLC ",
+      company_ar: "Nutopia for Food & Beverage LLC ",
+      company_link: "https://www.nutopiaegypt.com/en",
       period_en: "05/2023 – Present",
       period_ar: "05/2023 – الآن",
       bullets_en: [
-        "Prepare detailed financial reports, analyze variances, and provide actionable insights to senior management.",
-        "Maintain and update the general ledger per accounting principles.",
-        "Perform monthly/quarterly reconciliations for bank accounts, credit cards, and statements; resolve discrepancies.",
-        "Assist in month-end & year-end closings ensuring timely and accurate reporting.",
-        "Prepare and file taxes in compliance with local regulations.",
-        "Manage Accounts Payable & Receivable to ensure on-time processing and reconciliation.",
-        "Assist in internal and external audits with required documentation and explanations."
+        "Financial Reporting & Analysis :Prepare detailed financial reports, analyze variances, and provideactionable insights to senior management for improved decision-making.",
+        "General Ledger Management: Maintain and update the general ledger, ensuring accurate recording of all financial transactions in accordance with accounting principles.",
+        "Account Reconciliation: Perform monthly and quarterly reconciliations for bank accounts, and other financial statements, resolving discrepancies promptly.",
+        "Month-End & Year-End Closures: Assist in the preparation and completion of month-end and year-end closings, ensuring timely and accurate reporting for financial statements.",
+        "Tax Preparation & Filing: Prepare and file tax returns in compliance with local regulations, ensuring accuracy and timely submission.",
+        "Accounts Payable & Receivable: Manage and process accounts payable and receivable, ensuring that all invoices are paid/received on time and reconciled appropriately.",
+        "Financial Audits: Assist in internal and external audits, providing necessary documents, supporting data,and explanations to ensure compliance and transparency."
       ],
       bullets_ar: [
-        "إعداد تقارير مالية تفصيلية وتحليل الانحرافات وتقديم رؤى قابلة للتنفيذ للإدارة العليا.",
-        "المحافظة على تحديث دفتر الأستاذ العام وفق المبادئ المحاسبية.",
-        "إجراء التسويات الشهرية/الربع سنوية للحسابات البنكية وبطاقات الائتمان وكشوف الحساب وحل الفروقات.",
-        "المساعدة في إغلاقات نهاية الشهر/السنة مع ضمان الدقة والالتزام بالمواعيد.",
-        "إعداد وتقديم الإقرارات الضريبية وفق القوانين المحلية.",
-        "إدارة حسابات الدائنين والمدينين لضمان المعالجة في الوقت المناسب والتسوية.",
-        "المساعدة في المراجعات الداخلية والخارجية بالمستندات اللازمة والتوضيحات."
+        "إعداد التقارير والتحليل المالي: إعداد تقارير مالية تفصيلية، وتحليل الفروقات، وتقديم رؤى قابلة للتنفيذ للإدارة العليا لدعم اتخاذ قرارات أكثر فاعلية.",
+        "إدارة الدفاتر المحاسبية: الحفاظ على تحديث دفتر الأستاذ العام وضمان تسجيل جميع المعاملات المالية بدقة وفقًا للمبادئ المحاسبيةوالمعايير.",
+        "تسويات الحسابات: إجراء التسويات الشهرية والربع سنوية للحسابات البنكية  وكافة البيانات المالية، ومعالجة الفروقات بشكل فوري.",
+        "الإغلاقات المالية الشهرية والسنوية: المساهمة في إعداد وإنهاء الإغلاقات الشهرية والسنوية وضمان دقة وسرعة التقارير المالية.",
+        "إعداد وتقديم الإقرارات الضريبية: إعداد الإقرارات الضريبية وتقديمها وفقًا للوائح المحلية، مع ضمان الدقة والالتزام بالمواعيد المحددة.",
+        "الحسابات العملاء والموردين: إدارة ومعالجة الحسابات العملاء والموردين وضمان سداد الفواتير وتحصيل المستحقات في مواعيدها وتسويتها بالشكل المناسب.",
+        "المراجعات المالية: المساعدة في المراجعات الداخلية والخارجية من خلال توفير المستندات والبيانات الداعمة والتفسيرات اللازمة لضمان الالتزام والشفافية."
       ],
     },
     {
@@ -76,16 +88,16 @@ const CV = {
       period_en: "03/2021 – 01/2023",
       period_ar: "03/2021 – 01/2023",
       bullets_en: [
-        "Reviewed daily financial documents and transferred them to the American journal with correct classification.",
-        "Assisted in preparation/review of subsidiary ledger and trial balance.",
-        "Recorded sales, purchases, customer collections, and supplier payments accurately.",
-        "Supported account reconciliation processes and addressed discrepancies."
+        "Document Review & Entry Transfer: Reviewed daily financial documents and accurately transferred them to the American journal, ensuring correct classification and timely posting.",
+        "Ledger & Trial Balance Preparation: Assisted in the preparation and review of the assistant ledger and trial balance, ensuring accuracy and completeness of financial data.",
+        "Transaction Recording: Recorded sales, purchases, customer collections, and payments to suppliers, maintaining accurate and up-to-date financial records.",
+        "Account Reconciliation: Supported account reconciliation processes, ensuring all entries matched bank statements and other records, addressing discrepancies as needed."
       ],
       bullets_ar: [
-        "مراجعة المستندات اليومية وتحويلها بدقة إلى اليومية الأمريكية مع التصنيف الصحيح.",
-        "المساعدة في إعداد ومراجعة الدفاتر المساعدة وميزان المراجعة.",
-        "تسجيل المبيعات والمشتريات وتحصيلات العملاء ومدفوعات الموردين بدقة.",
-        "دعم عمليات تسوية الحسابات ومعالجة الفروقات."
+        "مراجعة المستندات اليومية وإثبات القيود: مراجعة المستندات المالية اليومية بدقة، وإثباتها في اليومية الأمريكية مع ضمان التصنيف الصحيح والتسجيل .",
+        "إعداد ومراجعة دفتر الأستاذ وميزان المراجعة: المساعدة في إعداد ومراجعة دفاتر الأستاذ المساعدة وميزان المراجعة، مع ضمان دقة واكتمال البيانات المالية.",
+        "تسجيل العمليات المالية: تسجيل المبيعات والمشتريات وتحصيلات العملاء ومدفوعات الموردين بدقة، والحفاظ على سجلات مالية محدثة بشكل مستمر.",
+        "تسويات الحسابات: دعم عمليات تسوية الحسابات، وضمان مطابقة جميع القيود مع كشوف الحسابات البنكية والسجلات الأخرى، ومعالجة الفروقات عند ظهورها."
       ],
     },
     {
@@ -96,14 +108,14 @@ const CV = {
       period_en: "09/2020 – 12/2020",
       period_ar: "09/2020 – 12/2020",
       bullets_en: [
-        "Learned financial accounting fundamentals and practical applications.",
-        "Developed understanding of financial statements and their analysis.",
-        "Reviewed operational cycles and verified documents vs American Journal entries."
+        "Financial Accounting Fundamentals: Gained in-depth knowledge of the basics of financial accounting,focusing on key principles and their practical applications.",
+        "Financial Statement Analysis: Developed a strong understanding of financial statements, including the interpretation of balance sheets, and income statements, along with their complementary explanations.",
+        "Documentary Review & Verification: Assisted in reviewing operational cycles and ensuring that actual documents matched entries in the American Journal, ensuring accuracy and compliance with accounting standards."
       ],
       bullets_ar: [
-        "تعلم أساسيات المحاسبة المالية وتطبيقاتها العملية.",
-        "تطوير فهم القوائم المالية وتحليلها.",
-        "مراجعة الدورات التشغيلية والتحقق من تطابق المستندات مع القيود في اليومية الأمريكية."
+        "أساسيات المحاسبة المالية: اكتساب معرفة معمقة بأساسيات المحاسبة المالية، مع التركيز على المبادئ الرئيسية وتطبيقاتها العملية.",
+        "تتحليل القوائم المالية: تطوير فهم قوي للقوائم المالية، بما في ذلك تحليل الميزانية العمومية وقائمة الدخل مع التفسيرات المكملة لها.",
+        "مراجعة وتدقيق المستندات: المساهمة في مراجعة الدورات التشغيلية والتأكد من مطابقة المستندات الفعلية للقيود المسجلة في اليومية الأمريكية، لضمان الدقة والالتزام بالمعايير المحاسبية."
       ],
     },
   ],
@@ -117,18 +129,21 @@ const CV = {
     "العمل ضمن فريق أو بشكل مستقل",
     "شغف بالتعلم والتطوير المهني"
   ],
-  skills_tech_en: [
-    "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)",
-    "Advanced Excel",
-    "ERP Systems",
-    "QuickBooks"
-  ],
-  skills_tech_ar: [
-    "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)",
-    "Excel متقدم",
-    "أنظمة ERP",
-    "QuickBooks"
-  ],
+skills_tech_en: [
+  "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)",
+  "Advanced Excel",
+  "ERP Systems",
+  "QuickBooks",
+  "Data Analysis Specialist"
+],
+skills_tech_ar: [
+  "Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)",
+  "Excel متقدم",
+  "أنظمة ERP",
+  "QuickBooks",
+  "أخصائي تحليل البيانات"
+],
+
   languages: [
     { en: "Arabic — Native", ar: "العربية — لغة أم" },
     { en: "English — Good", ar: "الإنجليزية — جيد" },
@@ -154,6 +169,72 @@ const SectionTitle = ({ children, lang }) => (
 
 /** ====== Main Component ====== */
 export default function WaelPortfolio() {
+function ThankYouPopup({ lang }) {
+  const [show, setShow] = React.useState(false);
+
+  React.useEffect(() => {
+    const onScroll = () => {
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 10) {
+        setShow(true);
+      }
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  if (!show) return null;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="fixed bottom-6 right-6 z-[80] max-w-sm p-5 rounded-2xl shadow-xl border bg-white"
+    >
+      <div className="flex items-start gap-3 relative">
+        <span className="text-2xl">🎉</span>
+        <div className="flex-1">
+          <p className="font-semibold text-gray-800">
+            {lang === "en"
+              ? "Thanks for browsing my profile!"
+              : "شكرًا لتصفحك بروفايلي!"}
+          </p>
+          <p className="text-sm text-gray-600 mt-1">
+            {lang === "en"
+              ? "Feel free to contact me through:"
+              : "يسعدني تواصلك من خلال:"}
+          </p>
+          <div className="flex gap-2 mt-3">
+            <a
+              href="https://wa.me/201060060771"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1.5 rounded-xl bg-green-500 text-white text-sm hover:bg-green-600"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="https://www.linkedin.com/in/wael-shaheen18"
+              target="_blank"
+              rel="noreferrer"
+              className="px-3 py-1.5 rounded-xl bg-blue-600 text-white text-sm hover:bg-blue-700"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        {/* زرار إغلاق */}
+        <button
+          onClick={() => setShow(false)}
+          className="absolute top-2 right-2 text-gray-400 hover:text-gray-600"
+        >
+          ❌
+        </button>
+      </div>
+    </motion.div>
+  );
+}
+
   const [lang, setLang] = useState("en");
   const isRTL = lang === "ar";
 
@@ -187,7 +268,7 @@ export default function WaelPortfolio() {
       <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
         <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
           <a href="#home" className="font-extrabold tracking-tight text-lg">
-            {lang === "en" ? "Wael Shaheen" : "وائل شاهين"}
+            {lang === "en" ? "Wael Ahmed" : "وائل أحمد"}
           </a>
           <div className="hidden md:flex items-center gap-1 text-sm">
             {[
@@ -239,8 +320,8 @@ export default function WaelPortfolio() {
             <div className={`mt-3 flex flex-wrap items-center gap-3 text-sm text-gray-600 ${isRTL ? "justify-end" : ""}`}>
               <span>📍 {lang === "en" ? CV.location_en : CV.location_ar}</span>
               <span>🎂 {CV.dob}</span>
-              <span>🪪 {lang === "en" ? CV.nationality_en : CV.nationality_ar}</span>
-              <span>❤️ {lang === "en" ? CV.marital_en : CV.marital_ar}</span>
+              <span>🌍 {lang === "en" ? CV.nationality_en : CV.nationality_ar}</span>
+              <span>👤 {lang === "en" ? CV.marital_en : CV.marital_ar}</span>
               <span>🎖️ {lang === "en" ? CV.military_en : CV.military_ar}</span>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
@@ -279,9 +360,28 @@ export default function WaelPortfolio() {
                   <h3 className="text-lg font-semibold">{lang === "en" ? job.role_en : job.role_ar}</h3>
                   <span className="text-xs px-2 py-1 rounded bg-slate-100">{lang === "en" ? job.period_en : job.period_ar}</span>
                 </div>
-                <p className="text-sm text-gray-600 mt-1">{lang === "en" ? job.company_en : job.company_ar}</p>
+                <p className="text-sm text-gray-600 mt-1 flex items-center gap-1">
+  <span>{lang === "en" ? job.company_en : job.company_ar}</span>
+  {job.company_link && (
+    <a
+      href={job.company_link}
+      target="_blank"
+      rel="noreferrer"
+      className="text-blue-600 hover:underline"
+                       >
+                     🔗
+                  </a>
+                    )}
+                 </p>
                 <ul className={`list-disc ${isRTL ? "ml-0 mr-6" : "ml-6"} mt-3 space-y-1 text-sm text-gray-700`}>
-                  {(lang === "en" ? job.bullets_en : job.bullets_ar).map((b, idx) => <li key={idx}>{b}</li>)}
+                  {(lang === "en" ? job.bullets_en : job.bullets_ar).map((b, idx) => {
+                  const [head, ...rest] = b.split(":");   // نقسم النص عند أول :
+                   return (
+                <li key={idx}>
+               <strong>{head}:</strong> {rest.join(":")}
+                   </li>
+                      );
+                  })}
                 </ul>
               </div>
             </motion.div>
@@ -300,6 +400,26 @@ export default function WaelPortfolio() {
           ))}
         </div>
       </section>
+
+{/* ===== Extra Certificates ===== */}
+<section id="extra-certs" className="px-6 py-16 bg-white">
+  <SectionTitle lang={lang}>
+    {lang === "en" ? "Special Certificates" : "شهادات إضافية"}
+  </SectionTitle>
+  <div className="max-w-5xl mx-auto grid gap-6">
+    {CV.extra_certs.map((c, i) => (
+      <motion.div
+        key={i}
+        {...fadeUp(0.04 * i)}
+        className="rounded-2xl border p-5 bg-white shadow-sm"
+      >
+        <p className={`text-gray-700 ${isRTL ? "text-right" : "text-left"}`}>
+          {lang === "en" ? c.en : c.ar}
+        </p>
+      </motion.div>
+    ))}
+  </div>
+</section>
 
       {/* ===== Skills ===== */}
       <section id="skills" className="px-6 py-16 bg-white">
@@ -338,6 +458,8 @@ export default function WaelPortfolio() {
           <a href={CV.cv_file} download className="inline-flex items-center gap-2 rounded-xl border px-4 py-2 text-sm hover:bg-slate-100">⬇️ {ui.nav.download}</a>
         </div>
       </section>
+      {/* هنا البوب أب */}
+      <ThankYouPopup lang={lang} />
     </div>
   );
 }
@@ -376,7 +498,11 @@ function CertificatesSection({ lang, isRTL }) {
       {active !== null && (
         <div className="fixed inset-0 z-[60] bg-black/70 p-4 flex items-center justify-center" onClick={() => setActive(null)}>
           <div className="max-w-4xl w-full bg-white rounded-2xl overflow-hidden" onClick={(e) => e.stopPropagation()}>
-            <img src={CV.certificates[active].img} alt="cert" className="w-full h-auto" />
+            <img 
+  src={CV.certificates[active].img} 
+  alt="cert" 
+  className="max-h-[80vh] w-auto max-w-full mx-auto object-contain" 
+/>
             <div className={`p-4 text-sm text-gray-700 flex items-center justify-between gap-4 ${isRTL ? "flex-row-reverse" : ""}`}>
               <span>{lang === "en" ? CV.certificates[active].en : CV.certificates[active].ar}</span>
               <button onClick={() => setActive(null)} className="px-3 py-1.5 rounded-xl border hover:bg-slate-100">
