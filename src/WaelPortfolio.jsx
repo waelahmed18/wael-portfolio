@@ -17,10 +17,9 @@ const CV = {
   military_en: "Military Service: Completed",
   military_ar: "الخدمة العسكرية: مُكتملة",
   email: "acc.waelahmedshaheen@gmail.com",
-  phone_primary: "+20 01060060771",
-  phone_alt: "01289867071",
+  phone_primary: "+966 572861683",
   linkedin: "https://www.linkedin.com/in/wael-shaheen18",
-  whatsapp_link: "https://wa.me/201060060771",
+  whatsapp_link: "https://wa.me/966572861683",
   cv_file: "/CV.pdf",
   profile: "/profile.png",
   objective_en:
@@ -206,7 +205,7 @@ function ThankYouPopup({ lang }) {
           </p>
           <div className="flex gap-2 mt-3">
             <a
-              href="https://wa.me/201060060771"
+              href="https://wa.me/966572861683"
               target="_blank"
               rel="noreferrer"
               className="px-3 py-1.5 rounded-xl bg-green-500 text-white text-sm hover:bg-green-600"
